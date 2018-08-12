@@ -6,3 +6,4 @@ notes: react structure / styles could be better but this project is mostly focus
 - Jest Enzyme added
 - Snapshot Test
 - Redux added
+- Test for Redux actions and reducers
