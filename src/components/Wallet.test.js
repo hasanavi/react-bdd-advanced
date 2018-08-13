@@ -33,7 +33,7 @@ describe('Wallet', () => {
 		});
 
 		it('updates the local wallet balance in `state` and converts into number', () => {
-			expect(wallet.state().balance).toEqual(parseInt(userBalance, 10));
+			expect(wallet.state('balance')).toEqual(parseInt(userBalance, 10));
 		});
 
 		describe('and the user wants to make a deposit', () => {
