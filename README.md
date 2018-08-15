@@ -13,3 +13,6 @@ notes: react structure / styles could be better but this project is mostly focus
 - Mocking function callback using jest.fn()
 - Component State and props testing
 - Persistant storage Testing and integration
+- Integrate redux-thunk, fetch-mock and redux-mock-store
+- Tests for Redux Async actons using Mock store and mock fetch
+- Tests for redux combine reducers
